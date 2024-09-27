@@ -32,7 +32,7 @@ To create poker AI, what we do is following
 Here is the code of our first AI. (We assume you saved this file at `~/dev/fish_player.py`)  
 
 ```python
-from pypokerengine.players import BasePokerPlayer
+from PyPokerEngine.pypokerengine.players import BasePokerPlayer
 
 class FishPlayer(BasePokerPlayer):  # Do not forget to make parent class as "BasePokerPlayer"
 
@@ -72,7 +72,7 @@ To start the game, what we need to do is following
 
 Here is the code to play poker for 10 round with our created `FishPlayer`.
 ```python
-from pypokerengine.api.game import setup_config, start_poker
+from PyPokerEngine.pypokerengine.api.game import setup_config, start_poker
 
 config = setup_config(max_round=10, initial_stack=100, small_blind_amount=5)
 config.register_player(name="p1", algorithm=FishPlayer())
@@ -129,9 +129,9 @@ So we also provide `Emulator` class which has convinient methods for Reinforceme
 Common usage of `Emulator` would be like below.  
 
 ```python
-from pypokerengine.players import BasePokerPlayer
-from pypokerengine.api.emulator import Emulator
-from pypokerengine.utils.game_state_utils import restore_game_state
+from PyPokerEngine.pypokerengine.players import BasePokerPlayer
+from PyPokerEngine.pypokerengine.api.emulator import Emulator
+from PyPokerEngine.pypokerengine.utils.game_state_utils import restore_game_state
 
 from mymodule.poker_ai.player_model import SomePlayerModel
 

@@ -1,8 +1,8 @@
 from functools import reduce
 from itertools import groupby
 
-from pypokerengine.engine.hand_evaluator import HandEvaluator
-from pypokerengine.engine.pay_info import PayInfo
+from PyPokerEngine.pypokerengine.engine.hand_evaluator import HandEvaluator
+from PyPokerEngine.pypokerengine.engine.pay_info import PayInfo
 
 class GameEvaluator:
 

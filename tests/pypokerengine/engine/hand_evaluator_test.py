@@ -1,6 +1,6 @@
 from tests.base_unittest import BaseUnitTest
-from pypokerengine.engine.card import Card
-from pypokerengine.engine.hand_evaluator import HandEvaluator
+from PyPokerEngine.pypokerengine.engine.card import Card
+from PyPokerEngine.pypokerengine.engine.hand_evaluator import HandEvaluator
 
 class HandEvaluatorTest(BaseUnitTest):
 

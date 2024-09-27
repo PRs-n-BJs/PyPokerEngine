@@ -2,8 +2,8 @@ import pypokerengine.utils.card_utils as U
 
 from mock import patch
 from tests.base_unittest import BaseUnitTest
-from pypokerengine.engine.card import Card
-from pypokerengine.engine.deck import Deck
+from PyPokerEngine.pypokerengine.engine.card import Card
+from PyPokerEngine.pypokerengine.engine.deck import Deck
 
 class CardUtilsTest(BaseUnitTest):
 

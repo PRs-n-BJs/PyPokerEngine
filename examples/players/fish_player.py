@@ -1,4 +1,4 @@
-from pypokerengine.players import BasePokerPlayer
+from PyPokerEngine.pypokerengine.players import BasePokerPlayer
 
 class FishPlayer(BasePokerPlayer):  # Do not forget to make parent class as "BasePokerPlayer"
 

@@ -3,10 +3,10 @@ from functools import reduce
 from tests.base_unittest import BaseUnitTest
 from mock import patch
 import pypokerengine.engine.hand_evaluator
-from pypokerengine.engine.player import Player
-from pypokerengine.engine.pay_info import PayInfo
-from pypokerengine.engine.table import Table
-from pypokerengine.engine.game_evaluator import GameEvaluator
+from PyPokerEngine.pypokerengine.engine.player import Player
+from PyPokerEngine.pypokerengine.engine.pay_info import PayInfo
+from PyPokerEngine.pypokerengine.engine.table import Table
+from PyPokerEngine.pypokerengine.engine.game_evaluator import GameEvaluator
 from nose.tools import *
 
 class GameEvaluatorTest(BaseUnitTest):

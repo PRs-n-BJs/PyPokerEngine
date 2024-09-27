@@ -1,10 +1,10 @@
 from tests.base_unittest import BaseUnitTest
-from pypokerengine.engine.player import Player
-from pypokerengine.engine.card import Card
-from pypokerengine.engine.seats import Seats
-from pypokerengine.engine.table import Table
-from pypokerengine.engine.data_encoder import DataEncoder
-from pypokerengine.engine.message_builder import MessageBuilder
+from PyPokerEngine.pypokerengine.engine.player import Player
+from PyPokerEngine.pypokerengine.engine.card import Card
+from PyPokerEngine.pypokerengine.engine.seats import Seats
+from PyPokerEngine.pypokerengine.engine.table import Table
+from PyPokerEngine.pypokerengine.engine.data_encoder import DataEncoder
+from PyPokerEngine.pypokerengine.engine.message_builder import MessageBuilder
 
 class MessageBuilderTest(BaseUnitTest):
 

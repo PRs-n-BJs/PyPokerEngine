@@ -1,13 +1,13 @@
 from tests.base_unittest import BaseUnitTest
 from nose.tools import *
 
-from pypokerengine.engine.card import Card
-from pypokerengine.engine.pay_info import PayInfo
-from pypokerengine.engine.poker_constants import PokerConstants as Const
-from pypokerengine.engine.player import Player
-from pypokerengine.engine.table import Table
-from pypokerengine.engine.seats import Seats
-from pypokerengine.engine.deck import Deck
+from PyPokerEngine.pypokerengine.engine.card import Card
+from PyPokerEngine.pypokerengine.engine.pay_info import PayInfo
+from PyPokerEngine.pypokerengine.engine.poker_constants import PokerConstants as Const
+from PyPokerEngine.pypokerengine.engine.player import Player
+from PyPokerEngine.pypokerengine.engine.table import Table
+from PyPokerEngine.pypokerengine.engine.seats import Seats
+from PyPokerEngine.pypokerengine.engine.deck import Deck
 
 class TableTest(BaseUnitTest):
 

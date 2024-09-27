@@ -1,7 +1,7 @@
 from tests.base_unittest import BaseUnitTest
-from pypokerengine.engine.player import Player
-from pypokerengine.engine.poker_constants import PokerConstants as Const
-from pypokerengine.engine.action_checker import ActionChecker
+from PyPokerEngine.pypokerengine.engine.player import Player
+from PyPokerEngine.pypokerengine.engine.poker_constants import PokerConstants as Const
+from PyPokerEngine.pypokerengine.engine.action_checker import ActionChecker
 
 class ActionCheckerTest(BaseUnitTest):
 

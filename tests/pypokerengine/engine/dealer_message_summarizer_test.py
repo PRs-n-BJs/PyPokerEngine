@@ -5,7 +5,7 @@ except ImportError:
     from io import StringIO
 
 from tests.base_unittest import BaseUnitTest
-from pypokerengine.engine.dealer import MessageSummarizer
+from PyPokerEngine.pypokerengine.engine.dealer import MessageSummarizer
 
 class MessageSummarizerTest(BaseUnitTest):
 

@@ -1,8 +1,8 @@
 from functools import reduce
 
-from pypokerengine.engine.pay_info import PayInfo
-from pypokerengine.engine.poker_constants import PokerConstants as Const
-from pypokerengine.engine.game_evaluator import GameEvaluator
+from PyPokerEngine.pypokerengine.engine.pay_info import PayInfo
+from PyPokerEngine.pypokerengine.engine.poker_constants import PokerConstants as Const
+from PyPokerEngine.pypokerengine.engine.game_evaluator import GameEvaluator
 
 class DataEncoder:
 

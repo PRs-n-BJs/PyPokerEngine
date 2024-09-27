@@ -1,6 +1,6 @@
 from tests.base_unittest import BaseUnitTest
-from pypokerengine.engine.card import Card
-from pypokerengine.engine.deck import Deck
+from PyPokerEngine.pypokerengine.engine.card import Card
+from PyPokerEngine.pypokerengine.engine.deck import Deck
 
 class DeckTest(BaseUnitTest):
 

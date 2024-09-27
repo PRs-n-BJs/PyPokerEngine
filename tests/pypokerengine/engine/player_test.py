@@ -1,7 +1,7 @@
 from tests.base_unittest import BaseUnitTest
-from pypokerengine.engine.card import Card
-from pypokerengine.engine.player import Player
-from pypokerengine.engine.poker_constants import PokerConstants as Const
+from PyPokerEngine.pypokerengine.engine.card import Card
+from PyPokerEngine.pypokerengine.engine.player import Player
+from PyPokerEngine.pypokerengine.engine.poker_constants import PokerConstants as Const
 from nose.tools import *
 
 class PlayerTest(BaseUnitTest):

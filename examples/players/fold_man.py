@@ -1,4 +1,4 @@
-from pypokerengine.players import BasePokerPlayer
+from PyPokerEngine.pypokerengine.players import BasePokerPlayer
 
 class FoldMan(BasePokerPlayer):
 

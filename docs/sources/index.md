@@ -11,7 +11,7 @@ To create poker AI, what we do is following
 Here is the code of our first AI.  
 
 ```python
-from pypokerengine.players import BasePokerPlayer
+from PyPokerEngine.pypokerengine.players import BasePokerPlayer
 
 class FishPlayer(BasePokerPlayer):  # Do not forget to make parent class as "BasePokerPlayer"
 
@@ -49,7 +49,7 @@ To start the game, what we need to do is following
 
 Here is the code to play poker for 10 round with our created `FishPlayer`.
 ```python
-from pypokerengine.api.game import setup_config, start_poker
+from PyPokerEngine.pypokerengine.api.game import setup_config, start_poker
 
 config = setup_config(max_round=10, initial_stack=100, small_blind_amount=5)
 config.register_player(name="p1", algorithm=FishPlayer())

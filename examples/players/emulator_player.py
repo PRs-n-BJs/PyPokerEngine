@@ -1,7 +1,7 @@
-from pypokerengine.players import BasePokerPlayer
-from pypokerengine.api.emulator import Emulator
-from pypokerengine.utils.card_utils import gen_cards
-from pypokerengine.utils.game_state_utils import restore_game_state, attach_hole_card, attach_hole_card_from_deck
+from PyPokerEngine.pypokerengine.players import BasePokerPlayer
+from PyPokerEngine.pypokerengine.api.emulator import Emulator
+from PyPokerEngine.pypokerengine.utils.card_utils import gen_cards
+from PyPokerEngine.pypokerengine.utils.game_state_utils import restore_game_state, attach_hole_card, attach_hole_card_from_deck
 
 NB_SIMULATION = 1000
 DEBUG_MODE = True

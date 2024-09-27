@@ -1,6 +1,6 @@
-from pypokerengine.engine.card import Card
-from pypokerengine.engine.seats import Seats
-from pypokerengine.engine.deck import Deck
+from PyPokerEngine.pypokerengine.engine.card import Card
+from PyPokerEngine.pypokerengine.engine.seats import Seats
+from PyPokerEngine.pypokerengine.engine.deck import Deck
 
 class Table:
 

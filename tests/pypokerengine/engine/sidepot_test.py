@@ -1,7 +1,7 @@
 from tests.base_unittest import BaseUnitTest
-from pypokerengine.engine.player import Player
-from pypokerengine.engine.pay_info import PayInfo
-from pypokerengine.engine.game_evaluator import GameEvaluator
+from PyPokerEngine.pypokerengine.engine.player import Player
+from PyPokerEngine.pypokerengine.engine.pay_info import PayInfo
+from PyPokerEngine.pypokerengine.engine.game_evaluator import GameEvaluator
 
 class SidepotTest(BaseUnitTest):
 

@@ -1,9 +1,9 @@
 from tests.base_unittest import BaseUnitTest
 from mock import patch
-from pypokerengine.engine.dealer import Dealer
+from PyPokerEngine.pypokerengine.engine.dealer import Dealer
 from examples.players.fold_man import FoldMan
-from pypokerengine.engine.pay_info import PayInfo
-from pypokerengine.engine.table import Table
+from PyPokerEngine.pypokerengine.engine.pay_info import PayInfo
+from PyPokerEngine.pypokerengine.engine.table import Table
 
 class DealerTest(BaseUnitTest):
 

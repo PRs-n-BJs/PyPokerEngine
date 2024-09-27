@@ -8,7 +8,7 @@ The common usage of `Emulator` would be
 
 So the code would be like this.
 ```python
-from pypokerengine.api.emulator import Emulator
+from PyPokerEngine.pypokerengine.api.emulator import Emulator
 
 # 1. Set game settings on emulator
 emulator = Emulator()
@@ -77,7 +77,7 @@ So you need to restore that information on GameState object by your hand.
 
 If you set hole card at random, you can use below code.
 ```python
-from pypokerengine.utils.game_state_utils import restore_game_state, attach_hole_card_from_deck
+from PyPokerEngine.pypokerengine.utils.game_state_utils import restore_game_state, attach_hole_card_from_deck
 
 game_state = restore_game_state(round_state)
 for player in game_state["table"].seats.players:
@@ -87,8 +87,8 @@ for player in game_state["table"].seats.players:
 If you want to set specific card on specific player, the code would be...  
 (below code sets holecard ['SA', 'DA'] on player which has uuid "uuid-1" and sets at random on others)
 ```python
-from pypokerengine.utils.game_state_utils import restore_game_state, attach_hole_card_from_deck, attach_hole_card
-from pypokerengine.utils.card_utils import gen_cards
+from PyPokerEngine.pypokerengine.utils.game_state_utils import restore_game_state, attach_hole_card_from_deck, attach_hole_card
+from PyPokerEngine.pypokerengine.utils.card_utils import gen_cards
 
 game_state = restore_game_state(round_state)
 for player in game_state["table"].seats.players:

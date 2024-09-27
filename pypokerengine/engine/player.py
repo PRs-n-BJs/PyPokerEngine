@@ -1,6 +1,6 @@
-from pypokerengine.engine.pay_info import PayInfo
-from pypokerengine.engine.card import Card
-from pypokerengine.engine.poker_constants import PokerConstants as Const
+from PyPokerEngine.pypokerengine.engine.pay_info import PayInfo
+from PyPokerEngine.pypokerengine.engine.card import Card
+from PyPokerEngine.pypokerengine.engine.poker_constants import PokerConstants as Const
 
 
 class Player:

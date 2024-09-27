@@ -34,7 +34,7 @@ PyPokerEngine prepares this method for you as `pypokerengine.utils.card_utils.es
 Let's use it !!
 
 ```python
->>> from pypokerengine.utils.card_utils import gen_cards, estimate_hole_card_win_rate
+>>> from PyPokerEngine.pypokerengine.utils.card_utils import gen_cards, estimate_hole_card_win_rate
 >>> hole_card = gen_cards(['H4', 'D7'])
 >>> community_card = gen_cards(['D3', 'C5', 'C6'])
 >>> estimate_hole_card_win_rate(nb_simulation=1000, nb_player=3, hole_card=hole_card, community_card=community_card)
@@ -52,8 +52,8 @@ The behavior of `HonestPlayer` is very simple (because he is honest).
 
 The code would be...
 ```python
-from pypokerengine.players import BasePokerPlayer
-from pypokerengine.utils.card_utils import gen_cards, estimate_hole_card_win_rate
+from PyPokerEngine.pypokerengine.players import BasePokerPlayer
+from PyPokerEngine.pypokerengine.utils.card_utils import gen_cards, estimate_hole_card_win_rate
 
 NB_SIMULATION = 1000
 
@@ -92,7 +92,7 @@ class HonestPlayer(BasePokerPlayer):
 Let's match `HonestPlayer` against `FishPlayer`.
 
 ```python
->>> from pypokerengine.api.game import setup_config, start_poker
+>>> from PyPokerEngine.pypokerengine.api.game import setup_config, start_poker
 >>> config = setup_config(max_round=10, initial_stack=100, small_blind_amount=5)
 >>> config.register_player(name="fish_player", algorithm=FishPlayer())
 >>> config.register_player(name="honest_player", algorithm=HonestPlayer())

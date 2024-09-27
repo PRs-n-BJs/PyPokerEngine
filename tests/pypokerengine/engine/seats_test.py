@@ -1,6 +1,6 @@
 from tests.base_unittest import BaseUnitTest
-from pypokerengine.engine.player import Player
-from pypokerengine.engine.seats import Seats
+from PyPokerEngine.pypokerengine.engine.player import Player
+from PyPokerEngine.pypokerengine.engine.seats import Seats
 
 class SeatsTest(BaseUnitTest):
 

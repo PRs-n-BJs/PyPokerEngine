@@ -1,13 +1,13 @@
 from tests.base_unittest import BaseUnitTest
 from mock import patch
-from pypokerengine.engine.round_manager import RoundManager
-from pypokerengine.engine.game_evaluator import GameEvaluator
-from pypokerengine.engine.poker_constants import PokerConstants as Const
-from pypokerengine.engine.player import Player
-from pypokerengine.engine.pay_info import PayInfo
-from pypokerengine.engine.card import Card
-from pypokerengine.engine.deck import Deck
-from pypokerengine.engine.table import Table
+from PyPokerEngine.pypokerengine.engine.round_manager import RoundManager
+from PyPokerEngine.pypokerengine.engine.game_evaluator import GameEvaluator
+from PyPokerEngine.pypokerengine.engine.poker_constants import PokerConstants as Const
+from PyPokerEngine.pypokerengine.engine.player import Player
+from PyPokerEngine.pypokerengine.engine.pay_info import PayInfo
+from PyPokerEngine.pypokerengine.engine.card import Card
+from PyPokerEngine.pypokerengine.engine.deck import Deck
+from PyPokerEngine.pypokerengine.engine.table import Table
 
 class RoundManagerTest(BaseUnitTest):
 

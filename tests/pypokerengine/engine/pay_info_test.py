@@ -1,5 +1,5 @@
 from tests.base_unittest import BaseUnitTest
-from pypokerengine.engine.pay_info import PayInfo
+from PyPokerEngine.pypokerengine.engine.pay_info import PayInfo
 
 class PayInfoTest(BaseUnitTest):
 

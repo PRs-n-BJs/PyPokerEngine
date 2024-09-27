@@ -1,8 +1,8 @@
 from tests.base_unittest import BaseUnitTest
 
 import pypokerengine.utils.action_utils as U
-from pypokerengine.engine.player import Player
-from pypokerengine.engine.poker_constants import PokerConstants as Const
+from PyPokerEngine.pypokerengine.engine.player import Player
+from PyPokerEngine.pypokerengine.engine.poker_constants import PokerConstants as Const
 
 class ActionUtilsTest(BaseUnitTest):
 

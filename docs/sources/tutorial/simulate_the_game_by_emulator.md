@@ -2,7 +2,7 @@
 You can run the game and get game result like this.
 
 ```python
->>> from pypokerengine.api.game import setup_config, start_poker
+>>> from PyPokerEngine.pypokerengine.api.game import setup_config, start_poker
 >>> config = setup_config(max_round=10, initial_stack=100, small_blind_amount=5)
 >>> config.register_player(name="fish_player", algorithm=FishPlayer())
 >>> config.register_player(name="honest_player", algorithm=HonestPlayer())
@@ -20,7 +20,7 @@ In this tutorial, we will create `EmulatorPlayer` to understand how to use `Emul
 First we need to setup `Emulator` object with game settings like number of player.
 
 ```python
-from pypokerengine.api.emulator import Emulator
+from PyPokerEngine.pypokerengine.api.emulator import Emulator
 
 emulator = Emulator()
 emulator.set_game_rule(nb_player=2, max_round=10, sb_amount=5, ante_amount=0)
@@ -74,7 +74,7 @@ You can setup `game_state` object from `round_state` object like this.
 (You receive `round_state` object in callback method of `BasePokerPlayer` like `declare_action`.)
 
 ```python
-from pypokerengine.utils.game_state_utils import\
+from PyPokerEngine.pypokerengine.utils.game_state_utils import\
         restore_game_state, attach_hole_card, attach_hole_card_from_deck
 
 def setup_game_state(round_state, my_hole_card):
@@ -164,7 +164,7 @@ Please check out complete implementation of `EmulatorPlayer` from [here]().
 Let's match the `EmulatorPlayer` against our first AI `FishPlayer`.
 
 ```python
->>> from pypokerengine.api.game import setup_config, start_poker
+>>> from PyPokerEngine.pypokerengine.api.game import setup_config, start_poker
 >>> config = setup_config(max_round=10, initial_stack=100, small_blind_amount=5)
 >>> config.register_player(name="fish_player", algorithm=FishPlayer())
 >>> config.register_player(name="emulator_player", algorithm=EmulatorPlayer())

@@ -1,5 +1,5 @@
-from pypokerengine.engine.pay_info import PayInfo
-from pypokerengine.engine.player import Player
+from PyPokerEngine.pypokerengine.engine.pay_info import PayInfo
+from PyPokerEngine.pypokerengine.engine.player import Player
 
 class Seats:
 

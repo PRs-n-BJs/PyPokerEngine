@@ -1,5 +1,5 @@
 from tests.base_unittest import BaseUnitTest
-from pypokerengine.engine.card import Card
+from PyPokerEngine.pypokerengine.engine.card import Card
 
 class CardTest(BaseUnitTest):
 

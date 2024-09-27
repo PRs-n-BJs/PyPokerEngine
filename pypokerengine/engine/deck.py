@@ -1,6 +1,6 @@
 from functools import reduce
 
-from pypokerengine.engine.card import Card
+from PyPokerEngine.pypokerengine.engine.card import Card
 import random
 
 class Deck:
